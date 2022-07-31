@@ -1,12 +1,121 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfólio de Aprendizagem</title>
+    <!--Navegadores-->
+    <title>Meu Website</title>
+    <meta name="description" content="Dê uma olhada no meu Website pessoal com as evoluções e aplicações das fases de aprendizagem em linguagens de progamação">
+    <link rel="icon" href="https://pbs.twimg.com/profile_images/2209676047/gatinho-5755_400x400.jpg">
+    <!--Facebook-->
+    <meta property="og:image" content="https://pbs.twimg.com/profile_images/2209676047/gatinho-5755_400x400.jpg">
+    <meta property="og:title" content="Meu Website">
+    <meta property="og:description" content="Dê uma olhada no meu Website pessoal com as evoluções e aplicações das fases de aprendizagem em linguagens de progamação">
+    <!--Twitter-->
+    <meta name="twitter:title" content="Meu Website">
 </head>
 <body>
-    <p>Meu Website Pessoal</p>
+<main>
+    <h1>Meu Website Pessoal</h1>
+<section>
+    <h2>Sobre mim</h2>
+    <p>Olá, me chama João Lucas Lima, tenho 18 anos, e sou desenvolvedor de web Full Stack em formação pela Instituição Kenzie Academy Brasil. Sou de picos no Piauí, e atualmente trabalho como freelancer em webdesigner.</p>
+    <img src="https://pbs.twimg.com/profile_images/1541559243261763592/y11pPXN3_400x400.jpg" alt="Foto do João Lucas">
+</section>
+<section>
+    <h2>Minhas Preferências</h2>
+    <h4>Redes Socias</h4>
+    <ul>
+        <a href="https://twitter.com/joaolvcax"><li>twitter</li></a>
+        <a href="https://www.instagram.com/"><li>Instagram</li></a>
+        <a href="https://www.linkedin.com/in/jao-/"><li>LinkedIn</li></a>
+        <a href="https://github.com/joaolvcas"><li>Github</li></a>
+    </ul>
+    <h4>Artistas Favoritos</h4>
+    <ol>
+        <li>Anitta</li>
+        <li>Doja Cat</li>
+        <li>Felipe Ret</li>
+        <li>Jack Harlow</li>
+        <li>Matuê</li>
+        <li>Rihanna</li>
+    </ol>
+    <h4>Melhores Peformances</h4>
+    <ul>
+        <li>Surprise (cloe balye)</li>
+        <li>Work (Rihanna)</li>
+        <li>Be alive(byeonce)</li>
+    </ul>
+</section>
+</main>
+<section>
+    <h2>Minha Rotina Semanal</h2>
+    <table border="2">
+        <Caption><strong>Rotina Semanal</strong></Caption>
+        <thead>
+            <tr>
+                <th>Segunda</th>
+                <th>Terça</th>
+                <th>Quarta</th> 
+                <th>Quinta</th> 
+                <th>Sexta</th>
+                <th>Sábado</th>
+                <th>Domingo</th>      
+            </tr>
+        </thead>
+        <tbody>
+            <tr>    
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Descanso</td>
+                <td>Descanso</td>      
+            </tr>
+            <tr>    
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Estudo</td>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+            </tr>
+            <tr>    
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Trabalho</td>
+                <td>Descanso</td>
+                <td>Descanso</td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+<section>
+    <form>
+        <h3>Quer ficar atualizado dos meus trabalhos?</h3>
+        <p>Preencha o formulário abaixo e cadastrase:</p>
+        <label for="nome">Nome</label>
+        <input type="text" placeholder="Seu nome aqui..." id="nome" name="nome" required="true">
+        <label for="email">E-mail</label>
+        <input type="email" placeholder="Seu e-mail aqui..." id="email" name="email" required="true">
+        <label for="profissao">Oque você faz?</label>
+        <section id="profissao" required="true">
+            <option>Developer</option>
+            <option>Recruiter</option>
+            <option>Bussiness</option>
+        </section>
+          <p>Deseja receber notificações no seu e-mail?</p>
+          <label for="sim">Sim</label>
+          <input type="radio" id="sim" name="notificacoes" required="true" value="sim">
+          <label for="nao">Não</label>
+          <input type="radio" id="nao" name="notificacoes" required="true" value="nao">
+          <buttom>Se cadastrar</buttom>
+    </form>
+</section>
 </body>
 </html>
